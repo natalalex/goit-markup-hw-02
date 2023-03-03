@@ -18,10 +18,10 @@ body {
 }
 
 /*! ********************** COMPONENTS ***********************/
-.no-marker {
+.list {
   list-style: none;
 }
-.no-line {
+.link {
   text-decoration: none;
 }
 .hidden-header {
@@ -33,6 +33,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
+  text-align: center;
 }
 .title {
   font-size: 36px;
@@ -56,10 +57,9 @@ body {
   line-height: 1.33;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-}
-.logo-web {
   color: var(--color-primary-brand);
 }
+
 /*== / for all logs ==*/
 
 .logo-studio-header {
@@ -127,6 +127,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-title-site);
+  text-align: center;
 }
 .order-btn {
   background: var(--color-primary-brand);
@@ -138,6 +139,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--color-title-site);
 }
 .order-btn:hover,
@@ -147,17 +149,17 @@ body {
 .order-btn {
   cursor: pointer;
 }
-/*?============== / Hero  ==============*/
+/*?============== / 1 Hero  ==============*/
 
-/*?=========== About our company  ===========*/
+/*?=========== 2 About our company  ===========*/
 /* Styles for <h2 class="hidden-header">, <h3 class="subtitle"> are defined in the COMPONENTS section. <p> inherits styles from body */
 /*?=========== / About our company  ===========*/
 
-/*?=========== What are we doing  ===========*/
+/*?=========== 3 What are we doing  ===========*/
 /* Styles for <h2 class="title"> are defined in the COMPONENTS section. */
 /*?=========== / What are we doing  ===========*/
 
-/*?=========== Our Team  ===========*/
+/*?=========== 4 Our Team  ===========*/
 .team {
   background-color: var(--color-light);
 }
