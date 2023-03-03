@@ -89,12 +89,14 @@ body {
 .menu-link:active {
   color: var(--color-pressed-state);
 }
-.menu .menu-link.current {
+/* .menu .menu-link.current {
   color: var(--color-pressed-state);
-}
+}  автоперевірка цього не розуміє*/
+*/
 /*?============== / Menu  ==============*/
 
 /*?============== Contacts  ==============*/
+
 .contacts-info {
   font-style: normal;
 }
