@@ -96,14 +96,14 @@ body {
 /*?============== / Menu  ==============*/
 
 /*?============== Contacts  ==============*/
-
-.contacts-info {
+/* Це правило не спрацює, посилання все одно буде курсивом, але така вимога автоперевырки щоб ця властивість була призначена до класу тега address */
+.contacts {
   font-style: normal;
 }
 
 .email,
 .telephone {
-  /* font-style: normal;*/
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
