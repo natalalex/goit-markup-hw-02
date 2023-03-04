@@ -92,7 +92,7 @@ body {
 /* .menu .menu-link.current {
   color: var(--color-pressed-state);
 }  автоперевірка цього не розуміє*/
-*/
+
 /*?============== / Menu  ==============*/
 
 /*?============== Contacts  ==============*/
@@ -100,15 +100,14 @@ body {
 .contacts {
   font-style: normal;
 }
-.link-contacts {
-  font-style: normal;
+
+.contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
-
-.link-contacts:hover,
-.link-contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--color-pressed-state);
 }
 /*?============== / Contacts  ==============*/
